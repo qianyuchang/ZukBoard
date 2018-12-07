@@ -1,6 +1,6 @@
 #
 # ---- Base Node ----
-FROM keymetrics/pm2:latest-alpine AS base
+FROM keymetrics/pm2:8-alpine AS base
 
 RUN apk add --no-cache tini
 # Tini is now available at /sbin/tini
